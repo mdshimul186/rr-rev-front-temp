@@ -1,0 +1,19 @@
+{
+  "errorMessages": {
+    "I105": "No se sabe que el ID fiscal presentado pertenezca a la empresa.",
+    "E1201": "La empresa está en la lista negra de TIN",
+    "I103": "El ID fiscal presentado no pertenece a la empresa",
+    "I104": "El número de identificación fiscal presentado pertenece a la persona presentada",
+    "I302": "El nombre comercial enviado tiene pequeños errores tipográficos.",
+    "I304": "El nombre comercial presentado tiene diferencias materiales",
+    "I305": "Es probable que el nombre comercial presentado sea el nombre de una persona.",
+    "I306": "No se puede verificar el nombre comercial enviado",
+    "I108": "La dirección presentada se encuentra a una distancia aproximada de la dirección registrada.",
+    "I109": "La dirección enviada tiene pequeños errores tipográficos, pero se esperaba que fuera la misma dirección.",
+    "I111": "La dirección enviada no pertenece a la empresa.",
+    "I112": "No se puede verificar la dirección enviada",
+    "I602": "Algunas personas presentadas pertenecen al negocio.",
+    "I604": "Ninguna de las personas presentadas pertenece al negocio.",
+    "I605": "Incapaz de verificar los personas enviadas"
+  }
+}

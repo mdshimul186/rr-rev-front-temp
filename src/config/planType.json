@@ -1,0 +1,10 @@
+{
+  "planTypeMap": {
+    "ultimate": "Ultimate",
+    "business": "Business",
+    "Ultimate": "Ultimate",
+    "Business": "Business",
+    "yearly": "1",
+    "monthly": "0"
+  }
+}

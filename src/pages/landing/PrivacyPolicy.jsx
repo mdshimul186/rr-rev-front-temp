@@ -1,0 +1,392 @@
+import { useOutletContext } from "react-router-dom";
+import { PRIVACY_MAIL, FTC_GOV, STRIPE_PRIVACY } from "../../config/constant";
+
+export const PrivacyPolicy = () => {
+  const t = useOutletContext();
+  const {
+    resident_review,
+    terms_of_service,
+    effective_date,
+    content,
+    content_one,
+    site,
+    service,
+    content_two,
+    content_three,
+    a,
+    b,
+    c,
+    d,
+    e,
+    f,
+    g,
+    h,
+    information,
+    information_text,
+    accounr_info,
+    account_text,
+    public_content,
+    public_text,
+    communication,
+    communication_text,
+    payment,
+    payment_text,
+    url,
+    activity,
+    activity_text,
+    different_devices,
+    different_devices_text,
+    professional_info,
+    professional_info_text,
+    sensitive_info,
+    sensitive_info_text,
+    cookies,
+    cookies_text,
+    purpose_head,
+    purpose,
+    explanation,
+    Processes,
+    process_text,
+    authentication,
+    authentication_text,
+    preferences,
+    preferences_text,
+    notifications,
+    notifications_text,
+    advertising,
+    advertising_text,
+    analytics,
+    analytics_text,
+    paragraph,
+    third_party,
+    third_party_text,
+    advertises,
+    advetise_text,
+    contentData,
+    contentData_text,
+    acquired_Data,
+    acquired_Data_text,
+    company_service,
+    company_service_text,
+    aggregate,
+    aggregate_text,
+    business_transfer,
+    business_transfer_text,
+    business_site,
+    business_site_text,
+    investigation,
+    investigation_text,
+    links,
+    links_text,
+    interactions,
+    interactions_text,
+    data_retention,
+    data_retention_text_one,
+    privacy_url,
+    children,
+    children_text,
+    ftc_url,
+    security,
+    security_text,
+    breach,
+    breach_text,
+    california,
+    california_text,
+    california_text_one,
+    point_one,
+    point_one_text,
+    point_two,
+    point_two_text,
+    point_three,
+    point_three_text,
+    point_four,
+    point_four_text,
+    point_five,
+    point_five_text,
+    point_five_text_more,
+    point_six,
+    point_six_text,
+    ccpa_head,
+    ccpa_rights,
+    ccpa_rights_one,
+    ccpa_rights_two,
+    ccpa_sufficient,
+    ccpa_describe,
+    ccpa_bottom_text,
+    response_timing,
+    response_timing_text,
+    response_timing_content,
+    response_timing_content_bottom,
+    updateing_info,
+    updateing_info_url_content,
+    for_more_info,
+    updateing_info_url_content_two,
+    european,
+    european_text_one,
+    european_text_two,
+    european_text_three,
+    european_text_four,
+    modification,
+    modification_text,
+    contact_info,
+    contact_info_text,
+    or_write,
+    attention,
+    address_one,
+    address_two,
+    location,
+  } = t("privacyPolicy");
+  return (
+    <>
+      <title>Privacy Policy - Resident Review</title>
+      <main className="main-container">
+        <section className="read-more-section">
+          <div className="container">
+            <div className="row gy-3 privacyPolicy">
+              <div className="col-sm-12 col-md-12 col-lg-12">
+                <h5 className="policy-heading">{resident_review}</h5>
+                <h5 className="policy-heading">{terms_of_service}</h5>
+                <h5 className="mb-4 policy-heading">{effective_date}</h5>
+                <p>
+                  {content} &quot; <strong>{site}</strong> &quot; {content_one}
+                  &quot; <strong>{service}</strong> {content_two}
+                </p>
+                <p>{content_three}</p>
+                <p>
+                  <strong className="privacyInfo">{information}</strong>
+                  {information_text}
+                </p>
+                <p>
+                  {a} <strong>{accounr_info}</strong>
+                  {account_text}
+                </p>
+                <p>
+                  {b} <strong>{public_content}</strong>
+                  {public_text}
+                </p>
+                <p>
+                  {c} <strong>{communication}</strong> {communication_text}
+                </p>
+                <p>
+                  {d} <strong>{payment}</strong> {payment_text}
+                  <a
+                    href={STRIPE_PRIVACY}
+                    target="_blank"
+                    className="hyper-link"
+                  >
+                    {url}
+                  </a>
+                </p>
+                <p>
+                  {e} <strong>{activity}</strong> {activity_text}
+                </p>
+                <p>
+                  {f} <strong>{different_devices}</strong>
+                  {different_devices_text}
+                </p>
+                <p>
+                  {g} <strong>{professional_info}</strong>
+                  {professional_info_text}
+                </p>
+                <p>
+                  {h} <strong>{sensitive_info}</strong> {sensitive_info_text}
+                </p>
+                <p>
+                  <strong>{cookies}</strong> {cookies_text}
+                </p>
+                <p>{purpose_head}</p>
+                <table className="privacyTable customerMap">
+                  <tr>
+                    <th>{purpose}</th>
+                    <th>{explanation}</th>
+                  </tr>
+                  <tr>
+                    <td>{Processes}</td>
+                    <td>{process_text}</td>
+                  </tr>
+                  <tr>
+                    <td>{authentication}</td>
+                    <td>{authentication_text}</td>
+                  </tr>
+                  <tr>
+                    <td>{preferences}</td>
+                    <td>{preferences_text}</td>
+                  </tr>
+                  <tr>
+                    <td>{notifications}</td>
+                    <td>{notifications_text}</td>
+                  </tr>
+                  <tr>
+                    <td>{advertising}</td>
+                    <td>{advertising_text}</td>
+                  </tr>
+                  <tr>
+                    <td>{analytics}</td>
+                    <td>{analytics_text}</td>
+                  </tr>
+                </table>
+                <p>{paragraph}</p>
+                <p>
+                  <strong>{third_party}</strong>
+                  {third_party_text}
+                </p>
+                <p>
+                  <strong>{advertises}</strong>
+                  {advetise_text}
+                </p>
+                <p>
+                  <strong>{contentData}</strong>
+                  {contentData_text}
+                </p>
+                <p>
+                  <strong>{acquired_Data}</strong>
+                  {acquired_Data_text}
+                </p>
+                <p>
+                  <strong>{company_service}</strong>
+                  {company_service_text}
+                </p>
+                <p>
+                  <strong>{aggregate}</strong>
+                  {aggregate_text}
+                </p>
+                <p>
+                  <strong>{business_transfer}</strong>
+                  {business_transfer_text}
+                </p>
+                <p>
+                  <strong>{business_site}</strong>
+                  {business_site_text}
+                </p>
+                <p>
+                  <strong>{investigation}</strong>
+                  {investigation_text}
+                </p>
+                <p>
+                  <strong>{links}</strong>
+                  {links_text}
+                </p>
+                <p>
+                  <strong>{interactions}</strong>
+                  {interactions_text}
+                </p>
+                <p>
+                  <strong>{data_retention}</strong>
+                  {data_retention_text_one}
+                  <a href={PRIVACY_MAIL} className="hyper-link">
+                    {privacy_url}
+                  </a>
+                </p>
+                <p>
+                  <strong>{children}</strong>
+                  {children_text}
+                  <a href={FTC_GOV} target="_blank" className="hyper-link">
+                    {ftc_url}
+                  </a>
+                </p>
+                <p>
+                  <strong>{security}</strong>
+                  {security_text}
+                </p>
+                <p>
+                  <strong>{breach}</strong>
+                  {breach_text}
+                </p>
+                <p>
+                  <strong>{california}</strong>
+                  {california_text}
+                </p>
+                <p>{california_text_one}</p>
+                <p>
+                  <strong>{point_one}</strong>
+                  {point_one_text}
+                </p>
+                <p>
+                  <strong>{point_two}</strong>
+                  {point_two_text}
+                </p>
+                <p>
+                  <strong>{point_three}</strong>
+                  {point_three_text}
+                </p>
+                <p>
+                  <strong>{point_four}</strong>
+                  {point_four_text}
+                </p>
+                <p>
+                  <strong>{point_five}</strong>
+                  {point_five_text} (&quot;SPI&quot;) {point_five_text_more}
+                </p>
+                <p>
+                  <strong>{point_six}</strong>
+                  {point_six_text}
+                </p>
+                <p>{ccpa_head}</p>
+                <p>
+                  <strong>{ccpa_rights}</strong>
+                </p>
+                <p>
+                  {ccpa_rights_one}
+                  <a href={PRIVACY_MAIL} className="hyper-link">
+                    {privacy_url}
+                  </a>
+                </p>
+                <p>{ccpa_rights_two}</p>
+                <ul>
+                  <li>{ccpa_sufficient}</li>
+                  <li>{ccpa_describe}</li>
+                </ul>
+                <p>{ccpa_bottom_text}</p>
+                <p>
+                  <strong>{response_timing}</strong>
+                  {response_timing_text}
+                </p>
+                <p>{response_timing_content}</p>
+                <p>{response_timing_content_bottom}</p>
+                <p>
+                  <strong>{updateing_info}</strong>
+                </p>
+                <p>
+                  {updateing_info_url_content}
+                  <a href={PRIVACY_MAIL} className="hyper-link">
+                    {privacy_url}
+                  </a>
+                  {for_more_info}
+                </p>
+                <p>
+                  {updateing_info_url_content_two}
+                  <a href={PRIVACY_MAIL} className="hyper-link">
+                    {privacy_url}
+                  </a>
+                </p>
+                <p>
+                  <strong>{european}</strong>
+                </p>
+                <p>{european_text_one}</p>
+                <p>{european_text_two}</p>
+                <p>{european_text_three}</p>
+                <p>{european_text_four}</p>
+                <p>
+                  <strong>{modification}</strong>
+                  {modification_text}
+                </p>
+                <p>
+                  <strong>{contact_info}</strong>
+                  {contact_info_text}
+                  <a href={PRIVACY_MAIL} className="hyper-link">
+                    {privacy_url}
+                  </a>
+                  {or_write}
+                </p>
+                <p>{attention}</p>
+                <p>{address_one}</p>
+                <p>{address_two}</p>
+                <p>{location}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+};

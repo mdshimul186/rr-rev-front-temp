@@ -1,0 +1,520 @@
+@media (width<=1570px) {
+    .analytic-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width<=1546px) {
+    .customer-review {
+        flex: 0 0 46%;
+    }
+}
+
+@media (width<=1400px) {
+    :is(.search-customers, .edit-business) form {
+        grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+    }
+
+    .customer-review {
+        flex: 0 0 54%;
+    }
+}
+@media (width<=1280px){
+.pricingwrapper-inner {
+    margin: 0px 90px;
+}
+}
+@media (width<=1250px) {
+    .form-section {
+        margin: 0;
+    }
+
+    footer .wrapper div:first-child {
+        padding-right: 0;
+    }
+
+    .customer-map {
+        flex-direction: column-reverse;
+
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+@media (width<=1140px) {
+    footer .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (width<=1024px){
+    .selectplan-card{
+        width: 100%;
+    }
+.search-card{
+    margin: 0px 90px !important;
+}
+}
+@media (width<=992px) {
+    .login-banner {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+   
+    html body h2 {
+        font-size: 1.875rem;
+    }
+
+    .register {
+        grid-template-columns: 1fr;
+
+        .login-background {
+            display: none;
+        }
+    }
+
+    .analytic-cards {
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    }
+
+    
+}
+
+@media (width<=900px) {
+    .left-spacing {
+        margin-left: 0;
+    }
+
+    .side-navigation {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        top: 4.75rem;
+        z-index: 9;
+    }
+
+    .collapsed-nav {
+        width: 18.75rem;
+        padding: 0 1.25rem;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+
+        nav a {
+            padding: 0.75rem 1.25rem;
+
+            span {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            svg {
+                margin-right: 0.625rem;
+            }
+        }
+
+        a:nth-of-type(1) img {
+            display: inline;
+        }
+
+        a:nth-last-of-type(1) img {
+            display: none;
+        }
+    }
+}
+
+@media (width<=850px) {
+    header nav {
+        display: none;
+
+        +div {
+            margin-left: auto;
+        }
+    }
+
+    .lang-toggle+.button {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .login {
+        grid-template-columns: 1fr;
+    }
+
+    .login-background {
+        display: none;
+    }
+
+    .forgot-section {
+        height: auto;
+    }
+}
+
+@media (width<=768px) {
+    html {
+        font-size: 15px;
+    }
+
+    footer .wrapper div:is(:first-child, :last-child) {
+        grid-column: 1 / -1;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    :is(.business-profile, .customer-profile) {
+        gap: 1rem;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .business-info {
+        margin-left: 5.667rem;
+    }
+
+    .additional-users {
+        min-height: calc(100vh - 9.796rem);
+    }
+}
+
+@media (width<=642px) {
+    .business-profile .button {
+        margin: 0.2rem 0 1rem;
+    }
+
+    .business-info {
+        margin-left: 0;
+    }
+
+    div.dt-container .dt-layout-end {
+        margin-top: 0.8rem;
+    }
+
+    .customer-btns {
+        margin: 1rem auto 0;
+    }
+
+    .view-business--content {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .edit-business-profile {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (width<=576px) {
+
+    .spacing {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .login-banner {
+        padding: 3.333rem 1.5rem;
+    }
+
+    .login {
+        margin: 2rem 0;
+    }
+
+    .form-section {
+        padding: 2rem;
+    }
+
+    .business-register .form-section,
+    .pricing-cards {
+        margin: 2rem auto 0;
+    }
+
+    .business-btns {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    .pricing-cards {
+        gap: 1.5rem;
+    }
+
+    footer .wrapper,
+    .customer-outer,
+    .checkout-section {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        margin-top: 2rem;
+    }
+
+    .newsletter input {
+        margin-top: 1.5rem;
+    }
+
+    .send-icon {
+        top: 1.5rem;
+    }
+
+    .dashboard {
+        padding: 1.6rem;
+
+        h1 {
+            margin-bottom: 1.6rem;
+        }
+
+        h2 {
+            margin: 1.467rem 0;
+        }
+    }
+
+    .dashboard-header {
+        padding: 0.94rem 1.6rem;
+    }
+
+    .collapsed-nav {
+        top: 4.546rem;
+    }
+
+    .customer-rating--outer {
+        gap: 1.533rem;
+    }
+
+    .review-body.grid-two--cols {
+        grid-template-columns: 1fr;
+    }
+
+    .customer-list {
+        margin-bottom: 1.6rem;
+    }
+
+    table.dataTable {
+        margin: 0.6rem 0;
+    }
+
+    .checkout-btn {
+        margin-top: 1.467rem;
+    }
+
+    .additional-users {
+        min-height: calc(100vh - 8.857rem);
+    }
+
+    .dashboard-footer {
+        padding: 1.333rem 1.6rem 1.6rem;
+    }
+    .pricingwrapper-inner {
+        margin: 0px;
+    }
+    .search-card {
+        margin: 0px !important;
+    }
+}
+
+@media (width<=482px) {
+    .business-profile {
+        >div {
+            order: 2;
+            margin: 0 0 1rem;
+        }
+
+        .button {
+            order: 1;
+            margin-bottom: 0;
+        }
+    }
+
+    .customer-rating--outer>div:last-child {
+        margin: auto;
+    }
+}
+
+@media (width<=460px) {
+    .login-banner {
+        h1 {
+            font-size: 2.133rem;
+        }
+    }
+
+    html body h2 {
+        font-size: 1.6rem;
+    }
+
+    .form-section {
+        padding: 1.5rem;
+    }
+
+    form>div {
+        margin-top: 1.333rem;
+    }
+
+    .otp-outer {
+        padding: 1.067rem;
+    }
+
+    .otp-field {
+        gap: 0.533rem;
+
+        input.form-control {
+            width: 2rem;
+        }
+    }
+
+    .register-section form>div,
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        gap: 1.333rem;
+    }
+
+    .pricing-cards {
+        gap: 1.467rem;
+    }
+
+    .business-register .row>* {
+        margin-top: 1.333rem;
+    }
+
+    .verification-dialog .modal-body {
+        padding: 1.5rem;
+    }
+
+    .dashboard :is(h1, h2) {
+        font-size: 1.467rem;
+    }
+
+    .customer-details>div p,
+    .review-ques>div {
+        flex-direction: column;
+        align-items: start;
+        gap: 0.267rem;
+        margin-top: 0.8rem;
+    }
+}
+
+@media (width<=424px) {
+    button.add-review-btn {
+        margin: 0.533rem 1rem 0.133rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1300px) {
+    .banner-content .banner-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .banner-content .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .banner-content .banner-text p {
+        font-size: 16px;
+    }
+
+    .banner-btn .btn {
+        font-size: 16px;
+    }
+
+    .banner-btn {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .header-content, .header-btns{
+        display: none !important;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .banner-content .banner-text {
+        gap: 10px;
+    }
+
+    .banner-content .banner-text h6 {
+        font-size: 16px;
+    }
+
+    .banner-content .banner-text h1 {
+        font-size: 22px;
+    }
+
+    .banner-content .banner-text p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .banner-btn .btn {
+        font-size: 12px;
+    }
+
+    .scroll-down-btn .btn {
+        width: 25px;
+        height: 40px;
+    }
+
+    .scroll-down-btn .btn i {
+        font-size: 12px;
+    }
+
+    @keyframes animateRoll {
+        50% {
+            cy: 90;
+            height: 30px;
+        }
+    }
+}
+
+@media(max-width: 480px) {
+
+    .banner-content .banner-text {
+        gap: 5px;
+    }
+
+    .banner-content .banner-text h6 {
+        font-size: 12px;
+    }
+
+    .banner-content .banner-text h1 {
+        font-size: 18px;
+    }
+
+    .banner-content .banner-text p {
+        font-size: 10px;
+        margin: 0;
+        line-height: 12px;
+    }
+
+    .banner-btn .btn {
+        font-size: 12px;
+    }
+
+    .scroll-down-btn {
+        display: none;
+    }
+
+    .banner-btn {
+        margin-top: 10px;
+    }
+
+    .contact-us-section {
+        padding: 30px 0;
+    }
+}

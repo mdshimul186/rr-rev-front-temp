@@ -1,0 +1,12 @@
+first_name,last_name,address,address_line2,contact,city,state,zip,customer_email,owner_type,status
+Hassan,khan,kanpur,Test,7905205685,kanpur,UP,208001,hassank@yopmail.com,owner,pending
+Prashant,rai,Lucknow,,8188859960,Lucknow,UP,208002,prashantr@yopmail.com,rental,pending
+Shubham,shri,Ayodhya,,4502698562,Ayodhya,UP,208003,shuabham@yopmail.com,rental,pending
+Hassan,khan,Chaman ganj,,7905205685,Chaman ganj,UP,208003,hassank@yopmail.com,rental,pending
+Prashant,rai,Lucknow,,8188859960,Lucknow,UP,208003,prashantr@yopmail.com,rental,pending
+Shubham,shri,Ayodhya,,4502698562,Ayodhya,UP,208003,shuabham@yopmail.com,rental,pending
+Hassan,khan,Chaman ganj,kanpur,7905205685,Chaman ganj,UP,208003,hassank@yopmail.com,rental,pending
+Prashant,rai,Lucknow,,8188859960,Lucknow,UP,208003,prashantr@yopmail.com,rental,pending
+Shubham,shri,Ayodhya,,4502698562,Ayodhya,UP,208004,shuabham@yopmail.com,rental,pending
+Hassan,test,kanpur,,7905205685,kanpur,UP,208005,hassank@yopmail.com,rental,pending
+newTest2,lastName2,noida2,,7905205685,kanpur,UP,208005,hassank@yopmail.com,rental,pending
